@@ -1,6 +1,7 @@
 body {
-  background-image: url("./background2.jpg");
+  background-image: url("./background.webp");
   background-size: cover;
+  background-position: bottom;
   height: 100vh;
 }
 
@@ -45,8 +46,8 @@ body {
 
 .container-app {
   padding: 2% 5% 5% 0%;
-  justify-content: left;
-  align-items: left;
+  justify-content: right;
+  align-items: right;
 }
 
 .container {
@@ -59,13 +60,19 @@ body {
 
 .card-img {
   width: 7rem;
-  height: 9rem;
+  height: 8rem;
   border-radius: 2%;
   box-shadow: 5px 5px 10px rgba(106, 8, 235, 0.3);
 }
 
 .text-title {
   text-align: center;
-  color: rgb(190, 26, 26);
+  color: rgb(7, 7, 7);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.details {
+  width: 50%;
+  justify-content: center;
+  max-height: 90vh;
 }

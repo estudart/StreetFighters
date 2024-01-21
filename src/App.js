@@ -29,6 +29,26 @@ const characters = [
     description: "Fast Kicks",
     img: Ehonda, // Replace with the actual image for Chun-Li
   },
+  {
+    name: "Ehonda",
+    description: "Fast Kicks",
+    img: Ehonda, // Replace with the actual image for Chun-Li
+  },
+  {
+    name: "Ehonda",
+    description: "Fast Kicks",
+    img: Ehonda, // Replace with the actual image for Chun-Li
+  },
+  {
+    name: "Ehonda",
+    description: "Fast Kicks",
+    img: Ehonda, // Replace with the actual image for Chun-Li
+  },
+  {
+    name: "Ehonda",
+    description: "Fast Kicks",
+    img: Ehonda, // Replace with the actual image for Chun-Li
+  },
 ];
 
 function App() {
@@ -44,15 +64,47 @@ function App() {
         <h3 className="text-title">Choose your character</h3>
         <div
           className="row"
-          style={{ borderTop: "2px solid red", paddingTop: "2%" }}
+          style={{ borderTop: "2px solid black", paddingTop: "2%" }}
         >
           {characters.map((character) => (
             <Card character={character} />
           ))}
         </div>
       </div>
-      <div className="row">
-        <p>HIHIHIHIHI</p>
+      <div className="conatiner row details">
+        <div
+          className="card"
+          style={{
+            width: "18rem",
+            backgroundColor: "transparent",
+            color: "white",
+            maxHeight: "100vh",
+          }}
+        >
+          <svg
+            class="bd-placeholder-img card-img-top"
+            width="100%"
+            height="180"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Placeholder: Image cap"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#868e96"></rect>
+            <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
+              Image cap
+            </text>
+          </svg>
+          <div className="card-body">
+            <h5 className="card-title">Card title</h5>
+            <p className="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
