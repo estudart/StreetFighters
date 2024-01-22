@@ -78,7 +78,7 @@ const characters = [
       "A skilled Air Force officer seeking revenge for his friend Charlie Nash's death. Known for his iconic flattop and Sonic Boom move.",
     img: Guile,
     gif: GuileGif,
-    skills: ["Sonic Boom", "Flash Kick", "Double Somersault Kick"],
+    skills: ["Sonic Boom", "Flash Kick"],
   },
   {
     name: "Dhalsim",
