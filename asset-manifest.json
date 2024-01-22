@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/StreetFighters/static/css/main.249e9dd2.css",
-    "main.js": "/StreetFighters/static/js/main.58239a7e.js",
+    "main.js": "/StreetFighters/static/js/main.7a66f6bd.js",
     "static/js/787.10f12d1f.chunk.js": "/StreetFighters/static/js/787.10f12d1f.chunk.js",
     "static/media/Akuma-ShakunetsuHadoken.gif": "/StreetFighters/static/media/Akuma-ShakunetsuHadoken.644820d80f61e70d1b46.gif",
     "static/media/Chunli-Kikoken.gif": "/StreetFighters/static/media/Chunli-Kikoken.f9f6fae55a9b42d4246f.gif",
@@ -48,11 +48,11 @@
     "static/media/Guile.jpg": "/StreetFighters/static/media/Guile.3c8b7bb8416510632dd5.jpg",
     "index.html": "/StreetFighters/index.html",
     "main.249e9dd2.css.map": "/StreetFighters/static/css/main.249e9dd2.css.map",
-    "main.58239a7e.js.map": "/StreetFighters/static/js/main.58239a7e.js.map",
+    "main.7a66f6bd.js.map": "/StreetFighters/static/js/main.7a66f6bd.js.map",
     "787.10f12d1f.chunk.js.map": "/StreetFighters/static/js/787.10f12d1f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.249e9dd2.css",
-    "static/js/main.58239a7e.js"
+    "static/js/main.7a66f6bd.js"
   ]
 }
