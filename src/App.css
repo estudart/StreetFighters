@@ -49,6 +49,9 @@ body {
   padding: 2% 5% 5% 0%;
   justify-content: right;
   align-items: right;
+  padding-bottom: 0px;
+  margin-bottom: 0;
+  max-height: 100vh;
 }
 
 .container {
@@ -61,6 +64,7 @@ body {
 
 .card-img {
   width: 7rem;
+
   height: 8rem;
   border-radius: 2%;
   box-shadow: 5px 5px 10px rgba(106, 8, 235, 0.3);
@@ -77,7 +81,9 @@ body {
 .text-title {
   text-align: center;
   color: rgb(255, 192, 0);
-  font-family: "Street Fighter", sans-serif;
+  text-shadow: 2px 2px 0 rgb(255, 47, 47);
+  font-family: "Press Start 2P";
+  font-size: 17px;
 }
 
 .details {
@@ -90,13 +96,15 @@ body {
 .detail-title {
   text-align: center;
   color: rgb(255, 192, 0);
-  font-family: "Street Fighter", sans-serif;
+  text-shadow: 2px 2px 0 rgb(255, 47, 47);
+  font-family: "Press Start 2P";
   font-weight: 400;
 }
 
 .card > img {
   height: 300px;
   width: auto;
+  max-width: 200%;
   align-self: center;
   justify-self: center;
 }
@@ -108,6 +116,10 @@ body {
 
 .card-text {
   color: rgb(255, 192, 0);
+  text-shadow: 2px 2px 0 rgb(255, 47, 47);
+  font-family: "Press Start 2P";
+  text-align: justify;
+  font-size: 10px;
 }
 
 .btn {
@@ -124,8 +136,11 @@ body {
 .skills {
   text-align: center;
   color: rgb(255, 192, 0);
+  text-shadow: 2px 2px 0 rgb(255, 47, 47);
+  font-family: "Press Start 2P";
   margin-top: 0%;
   margin-bottom: 1%;
+  font-size: 10px;
 }
 
 .skills:hover {

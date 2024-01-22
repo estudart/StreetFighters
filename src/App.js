@@ -202,7 +202,11 @@ function App() {
         <h3 className="text-title">Choose a Fighter</h3>
         <div
           className="row"
-          style={{ borderTop: "2px solid rgb(255, 192, 0)", paddingTop: "2%" }}
+          style={{
+            borderTop: "2px solid rgb(255, 192, 0)",
+            borderBottom: "2px solid rgb(255, 192, 0)",
+            paddingTop: "2%",
+          }}
         >
           {characters.map((character) => (
             <Card character={character} onSelectCard={handleSelectCard} />
