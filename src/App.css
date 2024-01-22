@@ -1,6 +1,7 @@
 body {
-  background-image: url("./background.webp");
-  background-size: cover;
+  background-image: url("./background2.webp");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   background-position: bottom;
   height: 100vh;
 }
@@ -65,14 +66,58 @@ body {
   box-shadow: 5px 5px 10px rgba(106, 8, 235, 0.3);
 }
 
+.card-img:hover {
+  box-shadow: 5px 5px 10px rgba(201, 235, 8, 0.3);
+}
+
+.card-title {
+  text-align: center;
+}
+
 .text-title {
   text-align: center;
-  color: rgb(7, 7, 7);
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(255, 192, 0);
+  font-family: "Street Fighter", sans-serif;
 }
 
 .details {
   width: 50%;
   justify-content: center;
-  max-height: 90vh;
+  max-height: 60vh;
+  margin-top: 3%;
+}
+
+.detail-title {
+  text-align: center;
+  color: rgb(255, 192, 0);
+  font-family: "Street Fighter", sans-serif;
+}
+
+.card > img {
+  height: 300px;
+  width: auto;
+  align-self: center;
+  justify-self: center;
+}
+.card-body {
+  align-self: center;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.card-text {
+  color: rgb(255, 192, 0);
+}
+
+.btn {
+  margin-left: 2%;
+  margin-top: 0%;
+  padding-top: 0%;
+}
+
+.skills {
+  text-align: center;
+  color: rgb(255, 192, 0);
+  margin-top: 0%;
+  margin-bottom: 1%;
 }
