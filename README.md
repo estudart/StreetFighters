@@ -2,16 +2,7 @@
 
 Welcome to the StreetFighters repository! This project is a React application that allows users to explore various Street Fighter characters and their special moves.
 
-![Street Fighter Character Selector](https://link-to-screenshot)
-
-## Table of Contents
-- [Description](#description)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
+![Street Fighter Character Selector](https://github.com/estudart/StreetFighters/blob/main/street_fighters.png)
 
 ## Description
 
