@@ -19,16 +19,20 @@ The StreetFighters project is a React application that lets users browse and lea
 To run the StreetFighters app locally, follow these steps:
 
 1. Clone this repository to your local machine using:
-git clone https://github.com/estudart/StreetFighters.git
+    ```bash
+    git clone https://github.com/estudart/StreetFighters.git
 
 2. Navigate to the project directory:
-cd StreetFighters
+    ```bash
+    cd StreetFighters
 
 3. Install dependencies:
-npm install
+    ```bash
+    npm install
 
 4. Start the development server:
-npm start
+    ```bash
+    npm start
 
 5. Open your web browser and visit http://localhost:3000 to view the app.
 
@@ -49,8 +53,4 @@ npm start
 ## Contributing
 
 Contributions are welcome! If you find any bugs or have suggestions for new features, please open an issue on the [GitHub repository](https://github.com/estudart/StreetFighters). Pull requests are also encouraged.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
