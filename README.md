@@ -8,6 +8,9 @@ Welcome to the StreetFighters repository! This project is a React application th
 
 The StreetFighters project is a React application that lets users browse and learn about different characters from the Street Fighter series. It provides details about each character's background story, along with a selection of special moves they can perform.
 
+## Application Link
+Explore the application [here](https://estudart.github.io/StreetFighters/).
+
 ## Features
 
 - View images and descriptions of various Street Fighter characters.
