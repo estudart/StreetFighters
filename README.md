@@ -2,7 +2,7 @@
 
 Welcome to the StreetFighters repository! This project is a React application that allows users to explore various Street Fighter characters and their special moves.
 
-![Street Fighter Character Selector](https://github.com/estudart/StreetFighters/blob/main/street_fighters.png)
+![Street Fighter Character Selector](https://github.com/estudart/street-fighters-react/blob/main/street_fighters.png)
 
 ## Description
 
@@ -23,7 +23,7 @@ To run the StreetFighters app locally, follow these steps:
 
 1. Clone this repository to your local machine using:
     ```bash
-    git clone https://github.com/estudart/StreetFighters.git
+    git clone https://github.com/estudart/street-fighters-react.git
 
 2. Navigate to the project directory:
     ```bash
